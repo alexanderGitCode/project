@@ -157,6 +157,7 @@ public class stepdefination extends Base {
             }
 			
 		Assert.assertTrue(condition);
+		driver.close();
 		
     }
 
