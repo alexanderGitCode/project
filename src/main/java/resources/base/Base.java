@@ -35,7 +35,7 @@ public class Base {
 	public WebDriver anybrowser() throws IOException {
 		
 		prop= new Properties();
-		FileInputStream fil= new FileInputStream("C:\\Users\\chaka\\Ebay\\src\\main\\java\\resources\\base\\data.properties");
+		FileInputStream fil= new FileInputStream("C:\\Users\\ALEX\\PullProjects\\src\\main\\java\\resources\\base\\data.properties");
 		prop.load(fil);
 		String propertyBrowser=prop.getProperty("browser");
 		

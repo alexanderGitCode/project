@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: cucumberOptions.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 141.286 s - in cucumberOptions.TestRunner
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 61.093 s - in cucumberOptions.TestRunner

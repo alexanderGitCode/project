@@ -4,9 +4,12 @@ package stepDefination;
 
 
 
+import static org.junit.Assert.assertTrue;
+
 import org.junit.runner.RunWith;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.asserts.SoftAssert;
 
 import base.Base;
 import cucumber.api.java.en.And;
@@ -148,7 +151,7 @@ public class stepdefination extends Base {
 			}
 			else {
 				condition= false;				
-				System.out.print("Not Pass, The prices order are incorrect  ");
+				
 				break;
 			}	
 				
@@ -156,9 +159,23 @@ public class stepdefination extends Base {
             
             }
 			
-		Assert.assertTrue(condition);
-		driver.close();
 		
+			driver.close();
+			Assert.assertTrue(condition);		
+			/*SoftAssert softassert=new SoftAssert();
+			softassert.assertTrue(condition);			
+			driver.close();
+			softassert.assertAll();*/
+			
+		
+	    
+		
+
+	    
+	        
+		
+	        
+	       
     }
 
     
